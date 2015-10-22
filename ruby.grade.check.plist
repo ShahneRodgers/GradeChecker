@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>ruby.grade.check.plist</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/ruby</string>
+		<string>PROGRAMLOCATION</string>
+		<string>USERNAME</string>
+		<string>PASSWORD</string>
+		<string>^COSC4(90|12|40|21|80)$</string>
+	</array>
+	<key>StartCalendarInterval</key>
+	<array>
+		<dict>
+			<key>Hour</key>
+			<integer>07</integer>
+			<key>Minute</key>
+			<integer>00</integer>
+		</dict>
+		<dict>
+			<key>Hour</key>
+			<integer>08</integer>
+			<key>Minute</key>
+			<integer>00</integer>
+		</dict>
+		<dict>
+	                <key>Hour</key>
+        	        <integer>09</integer>
+                	<key>Minute</key>
+       		        <integer>00</integer>
+        	</dict>
+		<dict>
+                	<key>Hour</key>
+	                <integer>10</integer>
+        	        <key>Minute</key>
+        	        <integer>00</integer>
+       		 </dict>
+	</array>
+</dict>
+</plist>
