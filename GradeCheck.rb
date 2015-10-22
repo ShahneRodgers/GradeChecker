@@ -2,7 +2,7 @@ require 'rubygems'
 require 'mechanize'
 require 'nokogiri'
 
-$path = "/Users/ShahneRodgers/Desktop/RESULTS.txt"
+$path = "RESULTS.txt"
 
 def signinAndgetResultsPage(username, password)
   a = Mechanize.new 
