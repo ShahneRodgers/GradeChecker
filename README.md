@@ -1,6 +1,6 @@
 <h1>General</h1>
 
-To run this, you must have Ruby installed, an Otago evision account and the 'mechanize' gem (<i>gem install mechanize</i>). 
+To run this, you must have Ruby, gem and the 'mechanize' gem (<i>gem install mechanize</i>) installed, and an Otago evision account. 
 
 Download the ruby file and type:
 ruby GradeCheck.rb <i>\<username\></i> <i>\<password\></i> \<(optional)regular expression\>
