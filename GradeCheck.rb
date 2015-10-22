@@ -94,7 +94,7 @@ complete = parseResults(results)
 found = getGrades(papers, complete, pattern)
 
 output = File.new($path, "w+")
-output.write("Remember to delete the scheduler from /Library/LaunchAgents when finished.")
+
 
 #print results
 if (pattern)
