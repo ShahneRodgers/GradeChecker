@@ -1,6 +1,8 @@
-<h1>Everyone</h1>
+<h1>General</h1>
 
-To run this, you must have Ruby installed and an Otago evision account. Download the ruby file and type:
+To run this, you must have Ruby installed, an Otago evision account and the 'mechanize' gem (<i>gem install mechanize</i>). 
+
+Download the ruby file and type:
 ruby GradeCheck.rb <i>\<username\></i> <i>\<password\></i> \<(optional)regular expression\>
 
 if you include the regular expression, results for papers that match this expression will be retrieved. Otherwise you will be asked to provide a list of papers you want results for (warning: these are case sensitive - so cosc320 != COSC320).
